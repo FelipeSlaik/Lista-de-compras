@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+    <title>Lista de compras</title>
+</head>
+
+<body>
+    <main>
+        <img src="img/sacola.png" alt="sacola de compras">
+        <form>
+            <input class="input-item" id="input-item" type="text" placeholder="Digite o item que deseja adicionar" />
+            <button class="adicionar-botao" id="adicionar-item">Salvar item</button>
+        </form>
+
+
+
+        <ul id="lista-de-compras">
+            <h2>Lista de compras</h2>
+            <hr />
+            <li>
+                <div class="item-lista-container">
+                    <div class="container-nome-compra">
+                        <div class="checkbox-container">
+                            <label for="checkbox-1">
+                                <input type="checkbox" class="checkbox-input" id="checkbox-1">
+                                <div class="checkbox-customizado checked" ></div>
+                            </label>
+                        </div>
+                        <p>Ração de gato</p>
+                    </div>
+                    <div>
+                        <button class="item-lista-button">
+                            <img src="img/Excluir.svg" alt="Deletar" />
+                        </button>
+                        <button class="item-lista-button">
+                            <img src="img/Edição.svg" alt="Editar" />
+                        </button>
+                    </div>
+                </div>
+                <p class="item-lista-texto">Segunda-feira (31/01/2024) às 08:30</p>
+            </li>
+        </ul>
+
+    </main>
+</body>
+
+</html>
